@@ -9,4 +9,5 @@ option(BUILD_OPENGL_DEMOS "Build OpenGL learning demos" ON)
 
 if(BUILD_OPENGL_DEMOS)
     add_subdirectory(demos/opengl/basic_triangle)
+    add_subdirectory(demos/opengl/egl_offscreen)
 endif()
